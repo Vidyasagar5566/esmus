@@ -1,26 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import './index.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
+// All pages
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import DemoProduct from './pages/DemoProduct';
+
+import {useDocTitle} from './components/CustomHook';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-        <h1>esmus.in</h1>
-        <p>Where Connection Meets Convenience for IIT and NIT Students</p>
-      </header>
+  useEffect(() => {
+    const aos_init = () => {
+      AOS.init({
+        once: true,
+        duration: 1000,
+        easing: 'ease-out-cubic',
+      });
+    }
 
-      <section>
-          <h2>Download Now and Embark on a Journey of Enhanced Collaboration, Communication, and Community!</h2>
-          <p>
-              Welcome to esmus.in, a platform designed to bring IIT and NIT students together. Experience a new level of collaboration, communication, and community-building tailored to your needs.
-          </p>
-          <p>
-              Download now and unlock the potential for seamless connections, convenient interactions, and a thriving community of like-minded individuals.
-          </p>
-          <a href="#" class="cta-button">Download Now</a>
-      </section>
-    </div>
+    window.addEventListener('load', () => {
+      aos_init();
+    });
+  }, []);
+
+  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+
+  return (
+    <>
+      <Router>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/get-demo" element={<DemoProduct />} /> 
+          </Routes>
+        </ScrollToTop>
+      </Router>
+    </>
   );
 }
+
 
 export default App;
