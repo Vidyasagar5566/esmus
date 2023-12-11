@@ -75,8 +75,8 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                    With over 10 years experience in software analysis and design and a deep understanding of the latest IT trends and solutions, we provide customized recommendations and strategies to help you improve your operations, reduce costs, and increase efficiency.
-                                </p>
+                                  We build a customized mobile apps in both android and IOS (available in both playStore and appStore) for students to explore university life and for parents to make communication with young iit and nit students across india.
+                                  </p>
                             </div>
                         </div>
                         <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
@@ -85,7 +85,7 @@ const Services = () => {
                             </div>
                             <h3 className="text-3xl  text-blue-900 font-bold">We <span className='font-black'>Collaborate</span></h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>We can collaborate with your existing tech team to scale existing software applications or design customized software applications that suits your everyday need and simplifies various processes.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>We collaborated with two nits till now one is with NIT CALICUT and other is NIT WARANGAL with over more than 5000 trusted students. in future by introducing freelancing jobs for students we can easly collabrate with all iit and nit studentcommunity</p>
                             </div>
                         </div>
                     </div>
