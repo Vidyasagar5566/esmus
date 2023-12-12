@@ -16,9 +16,9 @@ const Portfolio = () => {
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Placement Review System</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    Our Business Management System is a robust and easily scalable system that streamlines business operations, increase efficiency, and ultimately drive growth and profitability for your business.
-                                    With features such as employee management, finance control, and many more modules to effectively manage all aspects of a business.
-                                    All data is stored in the cloud and as such it is easily accessible from all devices and from any location.
+                                We are in the process of developing a sophisticated placement review system tailored to students from esteemed institutions, including IITs and NITs. 
+                                This platform is designed to offer invaluable insights into interview processes, company reviews, and comprehensive placement statistics. 
+                                Here are key features that will be incorporated into our system
                                 </p>
                                 <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
@@ -33,10 +33,10 @@ const Portfolio = () => {
                             <div className="m-2 text-justify text-sm">
                                 <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Parent and Student Connect system</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    Our all encompassing School Management Portal is the only solution needed for any institution.
-                                    The School Management Portal (SMP) is a tool that can help educational institutions of all kinds manage their administrative tasks, automate processes, and streamline communication between teachers, students, parents, and administrators. 
-                                    The software can be used to manage all aspects of school operations, including student enrollment, attendance, grades, schedules, and more.
-                                </p>
+                                We are developing a revolutionary platform that facilitates seamless connections between parents and students from various IITs and NITs with just a few clicks on their mobile devices. Our platform is designed to empower parents to engage with top-performing students, 
+                                providing a valuable avenue for addressing their children's doubts and receiving insightful guidance
+                             
+                              </p>
                                 <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
@@ -61,9 +61,10 @@ const Portfolio = () => {
                             <div className="m-2 text-justify text-sm">
                             <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">university chat app without needing mobile numbers</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    The Payroll Management System automates the process of employee payments for businesses and organizations of different sizes. It helps to ensure that your employees get paid accurately and on time, while also reducing the time and effort required to manage payroll manually, with this system in place, you enjoy benefits such as: 
-                                    increased accuracy in employee payments. It can also integrate into an existing management system through well-structured APIs.
-                                </p>
+                                We are excited to introduce a cutting-edge communication chat application designed exclusively for students. 
+                                This innovative platform allows students to engage in dynamic conversations with peers from their own university and beyond, eliminating the need to exchange phone numbers. 
+                                Effortless community building with a single click, eliminating the need to manually add members through phone numbers, similar to popular messaging platforms like WhatsApp
+           </p>
                                 <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
@@ -75,11 +76,12 @@ const Portfolio = () => {
 
                         <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:scale-105 rounded-lg shadow-2xl p-3">
                             <div className="m-2 text-justify text-sm">
-                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Buy&Sell System for Students Used Items</h4>
+                                <h4 className="font-semibold my-4 text-lg md:text-2xl text-center mb-4 h-12">Buy&Sell System for Students Used Items, Lost&Found</h4>
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
-                                    Our event management system helps to manage different types of events, whether weddings, burials or any kind of event. With an easily customizable menu, you get to define your user experience and make your event fully customizable and memorable.
-                                    With use cases already recorded for quite a number of events, we can assure you of a stress-less event mangement platform.
-                                </p>
+                                In addition to our innovative communication platform, we are excited to introduce a comprehensive Buy & Sell system and a Lost & Found feature tailored to the unique needs of students. 
+                                These additions aim to enhance the overall student experience and provide practical solutions for their everyday needs
+                                   
+                                   </p>
                                 <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo

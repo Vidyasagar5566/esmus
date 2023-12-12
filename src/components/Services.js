@@ -24,9 +24,10 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Services</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                    We are pleased to introduce our website, esmus.in, as a dedicated platform offering web support for students and parents. Our website serves as a central hub for connecting with our team and accessing valuable guidance on a wide range of topics. 
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -34,32 +35,41 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Services</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                    Presenting our mobile apps: Esmus Universities and Peoples. Universities App delivers IIT and NIT details, building a collaborative student community. 
+                                    Peoples App connects parents with top students, offering personalized guidance. Both apps prioritize user-friendly interfaces, robust privacy, and real-time notifications. 
+                                    Our commitment is to provide innovative and valuable services, fostering meaningful interactions within the education community. Explore Esmus Universities for comprehensive details and Esmus Peoples for personalized connections.    
                                     </p>
                                 </div>
                             </div>
 
-                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
-                                <div className="m-2 text-justify text-sm">
-                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">Domain and Hosting Services</h2>
-                                    <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
-                                    </p>
-                                </div>
-                            </div>
+                            
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">General IT Consultations</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">General Consultations</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                    We are committed to aiding university students and parents by addressing queries related to university requirements, including information on clubs, sports, fests, and student councils. 
+                                    Our dedicated support extends to facilitating productive meetings for parents and organizing seminars and webinars on crucial topics for both students and parents. Our aim is to provide comprehensive assistance, fostering a positive and informed university experience for students and their families
+                                    
                                     </p>
                                 </div>
-                            </div>                    
+                            </div>        
+
+                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                                <div className="m-2 text-justify text-sm">
+                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Acadamic Data Hosting Services</h2>
+                                    <p className="text-md font-medium">
+                                    In our commitment to ensure security and prevent unauthorized access, we are actively working on integrating academic data securely within our apps for university students. 
+                                    We are implementing robust measures, including a highly secure database and secure domains, to safeguard academic information from potential hacks and other security vulnerabilities. 
+                                    Our priority is to establish a safe and protected environment, ensuring the confidentiality and integrity of university-related data for the benefit of students and academic institutions
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
             </section>
@@ -75,7 +85,7 @@ const Services = () => {
                             font-bold">We <span className='font-black'>Build</span></h3>
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>
-                                  We build a customized mobile apps in both android and IOS (available in both playStore and appStore) for students to explore university life and for parents to make communication with young iit and nit students across india.
+                                  We build a customized mobile apps in both android and IOS (available in both playStore and appStore) for students to explore university life and for parents to make communication with young iit and nit students across india through general talk and webinars.
                                   </p>
                             </div>
                         </div>

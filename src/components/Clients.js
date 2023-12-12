@@ -33,7 +33,7 @@ const Clients = () => {
                         </div>
 
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
-                            <img src={kws} alt="client" />                           
+                            <img src={warangal} alt="client" />                           
                         </div>
 
                                            
