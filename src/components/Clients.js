@@ -1,5 +1,4 @@
 import React from 'react';
-import kws from '../images/clients/kws.png';
 import calicut from '../images/clients/nit_calicut.png';
 import warangal from '../images/clients/nit_warangal.png';
 
@@ -33,7 +32,7 @@ const Clients = () => {
                         </div>
 
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
-                            <img src={warangal} alt="client" />                           
+                            <img src={calicut} alt="client" />                           
                         </div>
 
                                            
