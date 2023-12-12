@@ -16,9 +16,9 @@ const Footer = () => {
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                             <h3 className="font-bold text-4xl mb-4">Esmus</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>(Educationsl Social Media with University Students)</h5>
-                                <p>kakinada</p>
-                                <p>AndhraPradesh</p>
+                                <h5>(Educationsl Social Media for University Students)</h5>
+                                <p>Bengaluru</p>
+                                <p>Karnataka</p>
                             </div>
                         </div>
                     </div>
