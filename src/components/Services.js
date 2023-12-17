@@ -23,7 +23,7 @@ const Services = () => {
                             
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
+                                <img alt="Esmus card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Web Services</h2>
                                     <p className="text-md font-medium">
                                     We are pleased to introduce our website, esmus.in, as a dedicated platform offering web support for students and parents. Our website serves as a central hub for connecting with our team and accessing valuable guidance on a wide range of topics. 
@@ -34,7 +34,7 @@ const Services = () => {
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
+                                <img alt="Esmus card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Mobile App Services</h2>
                                     <p className="text-md font-medium">
                                     Presenting our mobile apps: Esmus Universities and Peoples. Universities App delivers IIT and NIT details, building a collaborative student community. 
@@ -48,7 +48,7 @@ const Services = () => {
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
+                                <img alt="Esmus card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">General Consultations</h2>
                                     <p className="text-md font-medium">
                                     We are committed to aiding university students and parents by addressing queries related to university requirements, including information on clubs, sports, fests, and student councils. 
@@ -60,7 +60,7 @@ const Services = () => {
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
-                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
+                                    <img alt="Esmus card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Acadamic Data Hosting Services</h2>
                                     <p className="text-md font-medium">
                                     In our commitment to ensure security and prevent unauthorized access, we are actively working on integrating academic data securely within our apps for university students. 

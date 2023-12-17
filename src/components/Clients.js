@@ -24,15 +24,15 @@ const Clients = () => {
                     <div className="grid sm:grid-cols-3 lg:grid-cols-3">
 
                         <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
-                            <img src={calicut} alt="client" />                            
+                            <img src={calicut} alt="Esmus client picture" />                            
                         </div> 
 
                         <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
-                            <img src={warangal} alt="client" />                            
+                            <img src={warangal} alt="Esmus client" />                            
                         </div>
 
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
-                            <img src={calicut} alt="client" />                           
+                            <img src={calicut} alt="Esmus client" />                           
                         </div>
 
                                            

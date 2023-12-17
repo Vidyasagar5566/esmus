@@ -34,7 +34,7 @@ const NavBar = () => {
 
      
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                <Link to="/"> <img src='logo.png' style={imageStyle} alt="describing logo of esmus" /></Link><Link to="/"><span className="font-extrabold text-4xl text-blue-900" style={{margin_top:40}}>smus</span></Link>
+                <Link to="/"> <img src='logo.png' style={imageStyle} alt="Esmus describing logo of esmus" /></Link><Link to="/"><span className="font-extrabold text-4xl text-blue-900" style={{margin_top:40}}>smus</span></Link>
                 </div>
 
                 <div className="group flex flex-col items-center">
