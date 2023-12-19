@@ -17,7 +17,7 @@ const Hero = () => {
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
-                            Esmus is a platform which connects students of iit's and nit's across India.
+                            Esmus is a platform which connects students of IIT's and NIT's across India.
                             </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">Our mission is to bridge the gap between students, universities, and educational institutions and Our platform empowers parents to seek insights and solutions, fostering a cohesive and informative environment for their children's education</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
