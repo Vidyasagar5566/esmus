@@ -20,12 +20,12 @@ const Portfolio = () => {
                                 This platform is designed to offer invaluable insights into interview processes, company reviews, and comprehensive placement statistics. 
                                 Here are key features that will be incorporated into our system
                                 </p>
-                                {/* <div className="flex justify-center my-4">
+                                <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
 
@@ -37,13 +37,13 @@ const Portfolio = () => {
                                 providing a valuable avenue for addressing their children's doubts and receiving insightful guidance
                              
                               </p>
-                                {/* <div className="flex justify-center my-4">
+                                <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
                                 </div>
-                                 */}
+                                
                                 {/* <ul className="border-t border-gray-300 py-8 space-y-6">
                                     <li className="flex items-center space-x-2 px-8">
                                         <span className="bg-blue-600 rounded-full p-1">
@@ -65,12 +65,12 @@ const Portfolio = () => {
                                 This innovative platform allows students to engage in dynamic conversations with peers from their own university and beyond, eliminating the need to exchange phone numbers. 
                                 Effortless community building with a single click, eliminating the need to manually add members through phone numbers, similar to popular messaging platforms like WhatsApp
            </p>
-                                {/* <div className="flex justify-center my-4">
+                                <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
 
@@ -82,12 +82,12 @@ const Portfolio = () => {
                                 These additions aim to enhance the overall student experience and provide practical solutions for their everyday needs
                                    
                                    </p>
-                                {/* <div className="flex justify-center my-4">
+                                <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                                     </Link>
-                                </div> */}
+                                </div>
                             </div>
                         </div>                    
                     </div>
