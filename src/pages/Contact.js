@@ -39,11 +39,17 @@ const Contact = () => {
         fData.append('message', message)
 
         axios({
-            method: "post",
-            url: process.env.REACT_APP_CONTACT_API,
-            data: fData,
+            method: "put",
+            url: "http://3.110.92.194/security1",
+            data: JSON.stringify({
+                "description": fData.message + ':' + fData.email + ':' + fData.firstName,
+                "report_belongs": "From Website"
+            }),
             headers: {
-                'Content-Type':  'multipart/form-data'
+                'Authorization': "58401b20cf3a99f411b713e6cae6d84a9c9e12b8",
+                Accept: "application/json",
+                "Content-Type": "application/json",
+
             }
         })
         .then(function (response) {
