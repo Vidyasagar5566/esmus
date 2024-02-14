@@ -15,10 +15,13 @@ const Hero = () => {
 
                     <div className="flex flex-col lg:flex-row py-8 justify-between text-center lg:text-left">
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
-                            <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
+                            <section>
+
+                            </section>
+                            <h2 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
-                            Esmus is a platform which connects students of IIT's and NIT's across India.
-                            </h1>
+                            Esmus is a platform which connects students of IIT's, NIT's and other universities across India.
+                            </h2>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">Our mission is to bridge the gap between students, universities, and educational institutions and Our platform empowers parents to seek insights and solutions, fostering a cohesive and informative environment for their children's education</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <Link to="https://docs.google.com/presentation/d/1uZWWq1aXvZF2yWt6wlHUeDdP16qf_gBrrWLcb3Vw0OQ/edit#slide=id.p" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
