@@ -40,7 +40,7 @@ const Contact = () => {
 
         axios({
             method: "put",
-            url: "http://3.110.92.194/security1",
+            url: "https://djongo.esmus.in/security1",
             data: JSON.stringify({
                 "description": fData.message + ':' + fData.email + ':' + fData.firstName,
                 "report_belongs": "From Website"
@@ -53,6 +53,7 @@ const Contact = () => {
             }
         })
         .then(function (response) {
+            console.log(response);
             document.getElementById('submitBtn').disabled = false;
             document.getElementById('submitBtn').innerHTML = 'send message';
             clearInput()

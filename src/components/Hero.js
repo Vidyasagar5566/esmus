@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
 import heroImg from '../images/web dev.png';
+// import video from '../images/esmus.mp4';
+
 
 const Hero = () => {
     return (
@@ -18,8 +20,7 @@ const Hero = () => {
                             <section>
 
                             </section>
-                            <h2 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
-                            {/* We build digital solutions to help businesses scale */}
+                            <h2 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900" style={{paddingTop:"30px"}}>
                             Esmus is a platform which connects students of IIT's, NIT's and other universities across India.
                             </h2>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">Our mission is to bridge the gap between students, universities, and educational institutions and Our platform empowers parents to seek insights and solutions, fostering a cohesive and informative environment for their children's education</div>
@@ -39,7 +40,7 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="Esmus card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+                            <p style={{paddingLeft:"50px"}}> <img alt="Esmus card img" style={{borderRadius:"50px",marginLeft:"40px",height:"400px",width:"800px"}} src={heroImg} /></p>
                         </div>
                     </div>
                 </div>
