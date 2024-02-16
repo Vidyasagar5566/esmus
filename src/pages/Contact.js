@@ -37,17 +37,17 @@ const Contact = () => {
         fData.append('email', email)
         fData.append('phone_number', phone)
         fData.append('message', message)
+        var token = "58401b20cf3a99f411b713e6cae6d84a9c9e12b8";
 
         axios({
             method: "put",
-            url: "https://djongo.esmus.in/security1",
+            url: "https://django.esmus.in/security1",
             data: JSON.stringify({
                 "description": fData.message + ':' + fData.email + ':' + fData.firstName,
                 "report_belongs": "From Website"
             }),
             headers: {
-                'Authorization': "58401b20cf3a99f411b713e6cae6d84a9c9e12b8",
-                Accept: "application/json",
+                'Authorization':  'Bearer ' + token,
                 "Content-Type": "application/json",
 
             }
